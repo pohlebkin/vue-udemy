@@ -18,6 +18,7 @@ yarn основные команды (использую в этом проек�
 
 ```
 npm install -g yarn
+yarn global add @vue/cli
 yarn --version (у меня 1.22.19)
 yarn serve
 yarn build
@@ -27,11 +28,19 @@ yarn add --dev prettier
 npm основные команды (!!! НЕ использую в этом проекте)
 
 ```
+npm install -g @vue/cli
 npm install
 npm run serve
 npm run build
 npm run lint
 https://cli.vuejs.org/config/
+```
+
+еще команды консоли
+
+```
+vue upgrade --next
+vue create hello-world
 ```
 
 ## 3. Настройка локального API + Docker
@@ -46,3 +55,9 @@ https://angular.realworld.io/
 ## 4. Установка Prettier
 
 http://zzzzzz/admin/edit/vscode/17
+
+# Раздел 2: Регистрация
+
+## 7. Разметка страницы регистрации
+
+https://demo.realworld.io/#/register
